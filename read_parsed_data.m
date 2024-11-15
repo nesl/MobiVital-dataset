@@ -13,8 +13,11 @@ plot(heart_wave)
 title("Truth-Heart")
 
 
-uwb_mat = dataset(:, 13:end-2);
+uwb_mat = dataset(:, 7:end-2);
 uwb_mat = uwb_mat(:, 1:120) + 1j* uwb_mat(:, 121:end);
+
+target_bin = 26; % subject to change
+uwb_wave = uwb_mat(:, target_bin);
 
 subplot(4,1,3)
 plot(real(uwb_wave))
