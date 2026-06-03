@@ -24,10 +24,11 @@ Each data entry is a .csv table, with 1500 rows (timestamps) = 30 seconds x 50 H
 We also provide the code that can be used to reproduce some of the results in our published paper in this [GitHub repository](https://github.com/nesl/mobivital-public).
 
 ## Citations
-> @article{wang2025mobivital,
-  title={MobiVital: Self-supervised Time-series Quality Estimation for Contactless Respiration Monitoring Using UWB Radar},
+@inproceedings{wang2025mobivital,
+  title={MobiVital: Self-supervised Quality Estimation for UWB-based Contactless Respiration Monitoring},
   author={Wang, Ziqi and Hua, Derek and Jiang, Wenjun and Xing, Tianwei and Chen, Xun and Srivastava, Mani},
-  journal={arXiv preprint arXiv:2503.11064},
+  booktitle={Proceedings of the 3rd International Workshop on Human-Centered Sensing, Modeling, and Intelligent Systems},
+  pages={70--75},
   year={2025}
 }
 
